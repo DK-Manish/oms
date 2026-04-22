@@ -1,6 +1,6 @@
 # Order Management System
 
-A full-stack order management application built to learn modern web development — from database to UI.
+A full-stack order management application built to learn modern web development from database to UI.
 
 ## Stack
 
