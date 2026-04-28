@@ -23,11 +23,11 @@ All three services run as Docker containers and communicate over a private Docke
 
 ## Features
 
-- **User auth** — register, login, JWT tokens (24h expiry), bcrypt password hashing
-- **Place orders** — customer name, item, quantity, price
-- **List orders** — paginated table (5 per page) with who placed each order
-- **Update status** — `pending → processing → shipped → delivered → cancelled`
-- **API docs** — auto-generated Swagger UI at `/docs`
+- **User auth** → register, login, JWT tokens (24h expiry), bcrypt password hashing
+- **Place orders** → customer name, item, quantity, price
+- **List orders** → paginated table (5 per page) with who placed each order
+- **Update status** → `pending → processing → shipped → delivered → cancelled`
+- **API docs** → auto-generated Swagger UI at `/docs`
 
 ## Project Structure
 
@@ -168,8 +168,8 @@ Defined in `.env` (never commit this file):
 - Containerisation with Docker Compose
 - Relational database design and foreign keys
 - REST API design with proper HTTP status codes
-- ORM — mapping Python classes to database tables
-- Schema validation — rejecting bad data before it hits the DB
+- ORM → mapping Python classes to database tables
+- Schema validation → rejecting bad data before it hits the DB
 - Stateless authentication with JWT
 - Secure password storage with bcrypt
 - React state management and `useEffect`
